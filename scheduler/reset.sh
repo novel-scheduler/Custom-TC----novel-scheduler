@@ -1,5 +1,8 @@
 #!/bin/bash
 
+
+sudo  cp pkt_sched.h  /usr/src/linux-headers-$(uname -r)/include/uapi/linux/pkt_sched.h
+
 sudo tc qdisc del dev lo root
 
 sudo rmmod sch_fq
