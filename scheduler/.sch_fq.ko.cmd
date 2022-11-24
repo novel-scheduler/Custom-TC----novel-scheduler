@@ -1,0 +1,1 @@
+cmd_/home/bmk/Downloads/scheduler/sch_fq.ko := ld -r -m elf_x86_64 -z noexecstack --build-id=sha1  -T scripts/module.lds -o /home/bmk/Downloads/scheduler/sch_fq.ko /home/bmk/Downloads/scheduler/sch_fq.o /home/bmk/Downloads/scheduler/sch_fq.mod.o;  true

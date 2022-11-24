@@ -1,0 +1,1 @@
+cmd_/home/bmk/Downloads/scheduler/Module.symvers := sed 's/\.ko$$/\.o/' /home/bmk/Downloads/scheduler/modules.order | scripts/mod/modpost -m -a  -o /home/bmk/Downloads/scheduler/Module.symvers -e -i Module.symvers   -T -
